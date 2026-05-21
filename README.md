@@ -40,7 +40,7 @@
 ### ▤ CONNECT
 | 🌐 Portfolio | 💼 LinkedIn | 🎨 Dribbble | 🟦 Behance |
 | :--- | :--- | :--- | :--- |
-| [**ashishrajdeo.github.io**](https://ashishrajdeo.github.io/portfolio) | [**AshishRajdeo**](https://linkedin.com/in/AshishRajdeo) | [**AshishRajdeo**](https://dribbble.com/AshishRajdeo) | [**AshishRajdeo**](https://behance.net/AshishRajdeo) |
+| [**ashishrajdeo.github.io**](https://ashishrajdeo.github.io/design) | [**AshishRajdeo**](https://linkedin.com/in/AshishRajdeo) | [**AshishRajdeo**](https://dribbble.com/AshishRajdeo) | [**AshishRajdeo**](https://behance.net/AshishRajdeo) |
 
 <br>
 
