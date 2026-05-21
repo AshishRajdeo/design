@@ -6,6 +6,12 @@ const Text = () => {
     const { windows } = useWindowStore();
     const data = windows.txtfile?.data;
 
+    // Our bulletproof path fixer
+    const getAsset = (path) => {
+        if (!path) return '';
+        return `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\.\/|^\//g, '')}`;
+    };
+
     if(!data) return null;
 
     const {name, image, subtitle, description } = data;
@@ -19,7 +25,8 @@ const Text = () => {
     <div className='p-5 space-y-6  bg-white'>
         {image ? (
             <div className='w-full'>
-                <img src={image} alt={name} className='w-full h-auto rounded' />
+                {/* Apply getAsset to the incoming image path */}
+                <img src={getAsset(image)} alt={name} className='w-full h-auto rounded' />
             </div>
         ) : null}
 
